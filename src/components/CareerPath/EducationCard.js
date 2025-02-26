@@ -14,7 +14,7 @@ function EducationCard() {
           <Col md={6}>
             <div className="education-item-box">
               <h5>Arizona State University, Tempe, AZ</h5>
-              <p><b className="purple">Master of Science in Software Engineering (GPA: 3.67 / 4.0)</b></p>
+              <p><b className="purple">Master of Science in Software Engineering (GPA: 3.89 / 4.0)</b></p>
               <p>Jan 2024 - Dec 2025</p>
             </div>
           </Col>
