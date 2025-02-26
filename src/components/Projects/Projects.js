@@ -27,6 +27,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         <Col md={4} className="project-card">
             <Fade left>
+              <a href="https://github.com/SER-401-Team-15/SER401Team15">
               <ProjectCard
                 imgPath={cert}
                 isBlog={false}
@@ -36,10 +37,12 @@ Spearheaded development of functionalities for submitting, saving, and exporting
                 ghLink="https://github.com/SER-401-Team-15/SER401Team15"
                 // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
               />
+              </a>
             </Fade>
           </Col>
         <Col md={4} className="project-card">
           <Fade top>
+            <a href="https://github.com/akulka89/SmartHabitat_Backend">
               <ProjectCard
                 imgPath={smartHabitat}
                 isBlog={false}
@@ -50,10 +53,12 @@ Analyzed 10,000+ records showcasing innovative data integration and counting alg
                 ghLink="https://github.com/akulka89/SmartHabitat_Backend"
                 demoLink="https://purple-mushroom-050a3aa1e.4.azurestaticapps.net/" //<--------Please include a demo link here
               />
+              </a>
             </Fade>
           </Col>
         <Col md={4} className="project-card">
           <Fade right>
+            <a href="https://github.com/akulka89/NotesOrganizerApp">
               <ProjectCard
                 imgPath={notes}
                 isBlog={false}
@@ -62,10 +67,12 @@ Analyzed 10,000+ records showcasing innovative data integration and counting alg
                 ghLink="https://github.com/akulka89/NotesOrganizerApp"
                 // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
               />
+              </a>
             </Fade>
           </Col>
         <Col md={4} className="project-card">
           <Fade left>
+            <a href="https://github.com/akulka89/SER502-clove-Team10">
               <ProjectCard
                 imgPath={clove}
                 isBlog={false}
@@ -74,10 +81,12 @@ Analyzed 10,000+ records showcasing innovative data integration and counting alg
                 ghLink="https://github.com/akulka89/SER502-clove-Team10"
                 // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
               />
+              </a>
             </Fade>
           </Col>
           <Col md={4} className="project-card">
             <Fade bottom>
+              <a href="https://github.com/akulka89/MusicStore">
               <ProjectCard
                 imgPath={ecom}
                 isBlog={false}
@@ -86,10 +95,12 @@ Analyzed 10,000+ records showcasing innovative data integration and counting alg
                 ghLink="https://github.com/akulka89/MusicStore"
                 // demoLink="https://plant49-ai.herokuapp.com/"
               />
+              </a>
             </Fade>
           </Col>
           <Col md={4} className="project-card">
             <Fade right>
+              <a href="https://github.com/akulka89/Online-Score-Predoction-with-Descriptive-Answers">
               <ProjectCard
                 imgPath={score}
                 isBlog={false}
@@ -98,10 +109,12 @@ Analyzed 10,000+ records showcasing innovative data integration and counting alg
                 ghLink="https://github.com/akulka89/Online-Score-Predoction-with-Descriptive-Answers"
                 // demoLink="https://editor.soumya-jit.tech/"              
               />
+              </a>
             </Fade>
           </Col>
           <Col md={4} className="project-card">
             <Fade left>
+              <a href="https://github.com/akulka89/ML-project">
               <ProjectCard
                 imgPath={marketing}
                 isBlog={false}
@@ -110,6 +123,7 @@ Analyzed 10,000+ records showcasing innovative data integration and counting alg
                 ghLink="https://github.com/akulka89/ML-project"
                 // demoLink="https://blogs.soumya-jit.tech/"
               />
+              </a>
             </Fade>
           </Col>
           <Col md={4} className="project-card">
