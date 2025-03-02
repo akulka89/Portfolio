@@ -4,6 +4,7 @@ import {
   AiFillGithub,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { AiTwotoneMail } from "react-icons/ai";
 
 function Footer() {
   let date = new Date();
@@ -39,11 +40,5 @@ function Footer() {
                 <FaLinkedinIn />
               </a>
             </li>
-          </ul>
-        </Col>
-      </Row>
-    </Container>
-  );
-}
-
-export default Footer;
+            <li className="social-icons">
+  

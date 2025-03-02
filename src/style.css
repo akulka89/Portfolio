@@ -556,9 +556,9 @@ button:focus {
 }
 
 .tech-icons {
-  font-size: 4.5em !important;
-  margin: 15px !important;
-  padding: 10px !important;
+  font-size: 1.5em !important;
+  margin: 10px !important;
+  padding-inline: 10px !important;
   opacity: 0.93 !important;
   border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
   vertical-align: middle !important;
@@ -568,6 +568,46 @@ button:focus {
   box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
+  position: relative;
+}
+
+.icon-container {
+  font-size: 4rem;
+  padding: 15px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.icon-container:hover {
+  background: rgba(255, 255, 255, 0.3); /* Slightly more visible */
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background 0.3s ease-in-out;
+}
+
+
+/* Tooltip Styling */
+.tooltip-text {
+  visibility: hidden;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: black;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  font-size: 0.9rem;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.icon-container:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
 }
 
 @media (max-width: 767px) {
@@ -580,10 +620,6 @@ button:focus {
   transform: scale(1.05) !important;
   overflow: hidden !important;
   border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
-}
-.tech-icon-images {
-  padding: 20px !important;
-  line-height: 1.6 !important;
 }
 
 .quote-card-view {

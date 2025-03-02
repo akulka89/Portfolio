@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import { FaBookOpen, FaPlane, FaPaintBrush } from "react-icons/fa"; 
 
 function AboutCard() {
   return (
@@ -9,28 +9,30 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Akshata Vijay Kulkarni </span>
-            from <span className="purple"> Tempe, AZ.</span>
+            a passionate software engineer and problem solver based in Tempe, AZ.
             <br />
-            I am currently a graduate studnet at Arizona State University
+            I’m currently a grad student at <span className="purple">Arizona State University</span>, pursuing Software Engineering and all things tech. 
+            Before this, I spent 3 years as a Senior Software Engineer at Persistent Systems, working on backend systems, AI-powered tools, and cloud technologies. 
+            I love solving complex problems and building things that make a difference.
             <br />
-            I have three years of experience as a Senior Software Engineer from Persistent Systems.
             <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
+            When I’m not glued to my laptop, you’ll probably find me:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Reading Books
+              <FaBookOpen /> Reading Books - I love stories, whether they’re tech-related or just a great fiction escape.
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <FaPlane /> Travelling - Traveling gives me fresh perspectives and endless inspiration.
+            </li>
+            <li className="about-activity">
+              <FaPaintBrush /> Sketching & Painting – There’s something incredibly calming about bringing imagination on paper.
             </li>
           </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive for your dreams!"{" "}
-          </p>
-          <footer className="blockquote-footer">Akshata</footer>
+          <br />
+         <p>I’m always up for learning, collaborating, and working on exciting projects. 
+          If you’re passionate about tech (or just want to chat about books and travel), 
+          Feel free to reach out via LinkedIn or email (details in the footer)!</p>
         </blockquote>
       </Card.Body>
     </Card>
